@@ -1,0 +1,33 @@
+:root{
+    --primary-text-color: #212121;
+    --title-text-color: #000000;
+    --accent-color: #2196F3;
+}
+
+body{
+    background-color: #ffffff;
+}
+
+/* основной цвет текста #212121 */
+/* втоичный цвет текста #000000 */
+/* основной цвет фона #FFFFFF */
+/* вторичный цвет фона #F5F5F5 */
+/* темный цвет фона #F5F4FA */
+/* цвет акцента #2196F3 */
+
+.logo{
+    color: #000000;
+}
+.logo-left {
+    color: var(--accent-color);
+}
+
+.list {
+    list-style: none;
+}
+
+/* site-nav list*/
+.site-nav .link:hover, .site-nav .link:focus
+ {
+  color: var(--accent-color);
+}
